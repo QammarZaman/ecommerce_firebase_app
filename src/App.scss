@@ -1,0 +1,20 @@
+@import "scss/colors";
+@import "scss/bootstrap";
+@import "scss/frontend";
+@import "scss/header";
+@import "scss/footer";
+@import "scss/buttons";
+@import "scss/auth";
+@import "~react-toastify/dist/ReactToastify.css";
+body {
+  color: $primary;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

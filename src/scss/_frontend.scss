@@ -1,0 +1,152 @@
+.code-box-demo {
+  text-align: center;
+  > .ant-layout + .ant-layout {
+    margin-top: 48px;
+  }
+}
+.ant-layout-header,
+.ant-layout-footer {
+  color: #fff;
+  background: #7dbcea;
+}
+.ant-layout-footer {
+  line-height: 1.5;
+}
+.ant-layout-sider {
+  color: #fff;
+  line-height: 120px;
+  background: #3ba0e9;
+}
+.ant-layout-content {
+  min-height: 120px;
+  color: #fff;
+  line-height: 120px;
+  background: rgba(16, 142, 233, 1);
+}
+
+.offer-area {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+  margin: auto 0;
+  .card {
+    padding: 70px 85px;
+    color: black;
+    border-radius: 0;
+    span {
+      color: $paragraph_color;
+      font-size: 40px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 90px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 90px;
+    }
+    p {
+      font-size: 20px;
+      color: $paragraph_color;
+      margin-top: 20px;
+    }
+  }
+}
+
+.popularProducts {
+  h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 70px;
+  }
+}
+.productsYouLike {
+  h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  p {
+    color: $paragraph_color;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+}
+
+.productTabs {
+  .ant-tabs-nav-list {
+    .ant-tabs-tab {
+      &-btn {
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: bold;
+        color: $tab_inactive_color;
+      }
+      &.ant-tabs-tab-active {
+        .ant-tabs-tab-btn {
+          color: $primary_solid;
+        }
+      }
+    }
+    .ant-tabs-ink-bar {
+      background: $primary_solid;
+    }
+  }
+}
+
+.productInfo {
+  border-color: $product_border;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    h4 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+  }
+  .price {
+    color: $product_price_color;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+}
+
+.aboutCompany {
+  .inner {
+    h3 {
+      color: $heading_color_1;
+      font-size: 40px;
+      font-weight: 800;
+      text-transform: uppercase;
+      line-height: 45px;
+    }
+    p {
+      color: $paragraph_color_1;
+      margin: 30px 0;
+    }
+  }
+}
+
+.get_inspired {
+  .insta-icon {
+    fill: $primary_solid;
+    font-size: 70px;
+  }
+  p {
+    color: $paragraph_color_1;
+  }
+}

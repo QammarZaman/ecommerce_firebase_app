@@ -1,0 +1,43 @@
+.form-wrapper {
+  background-color: white;
+  padding: 40px 60px;
+  h3,
+  p {
+    text-align: center;
+  }
+  h3 {
+    color: $heading_color_1;
+  }
+  p {
+    color: $paragraph_color_1;
+  }
+  .ant-form-item-required,
+  label {
+    color: $heading_color_1 !important;
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    &::before {
+      content: unset !important;
+    }
+  }
+  .ant-input,
+  input {
+    height: 40px;
+    border-radius: 0 !important;
+    &:hover {
+      border-color: $primary !important;
+    }
+  }
+  a {
+    color: $primary_solid;
+    text-decoration: none;
+  }
+  .ant-checkbox-inner {
+    background-color: $primary_solid;
+    border-color: $primary_solid;
+  }
+  .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+  }
+}

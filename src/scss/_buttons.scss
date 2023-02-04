@@ -1,0 +1,22 @@
+.global_btn {
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #fd8f5e;
+  color: white;
+  width: 200px;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-outline {
+    border: 2px solid $primary_solid;
+    background-color: white;
+    color: $primary_solid;
+    &:hover {
+      background-color: $primary_solid;
+      color: white;
+    }
+  }
+}
